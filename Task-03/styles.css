@@ -1,0 +1,96 @@
+
+body {
+  text-align: center;
+  background-color: #283149;
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif; 
+}
+
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #DA0463;
+  font-family: 'Poppins', sans-serif; 
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+
+.w {
+  background-color: #e74c3c; 
+  font-family: 'Lobster', cursive;
+}
+
+.a {
+  background-color: #3498db; 
+  font-family: 'Lobster', cursive;
+}
+
+.s {
+  background-color: #f1c40f; 
+  font-family: 'Lobster', cursive;
+}
+
+.d {
+  background-color: #2ecc71; 
+  font-family: 'Lobster', cursive;
+}
+
+.j {
+  background-color: #9b59b6; 
+  font-family: 'Lobster', cursive;
+}
+
+.k {
+  background-color: #e67e22; 
+  font-family: 'Lobster', cursive;
+}
+
+.l {
+  background-color: #1abc9c;
+  font-family: 'Lobster', cursive;
+}
+
+
+.drum:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
